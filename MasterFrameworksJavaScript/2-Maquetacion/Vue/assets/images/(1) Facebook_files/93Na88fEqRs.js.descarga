@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["7G31SmG"]); }
+
+__d("LSEncryptedBackupsRestoreThreads.bs",["LSVec.bs"],(function(a,b,c,d,e,f){"use strict";function a(a,c,d,e){return window.Promise.resolve(b("LSVec.bs").make(["thread-id"]))}f.call=a}),null);

@@ -1,0 +1,10 @@
+<!--Creacion de slider-->
+<div id="slider" [ngClass]="{
+    'slider-big': !size || size == 'big',
+    'slider-small': size == 'small'
+  }">
+    <!--<h1>Bienvenido al master en frameworks con GamaKun</h1> -->
+    <h1>{{nombre}}</h1>
+
+    <a [routerLink]="['/home']" class = "btn-white" *ngIf= "!size || size == 'sbig'">Ir a inicio</a>
+</div>

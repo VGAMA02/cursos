@@ -1,0 +1,26 @@
+﻿#foto {
+   width: 200px; 
+   margin: 2rem 0; 
+   border-radius: 40%;
+   border: 2px solid black;
+}
+
+.seccion-bienvenenida{
+    margin: 5rem 0 10rem 0;
+    color: white;
+
+}
+
+.seccion-bienvenenida h1 {
+    margin: 1rem;
+}
+
+.seccion-bienvenenida p {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.habilidades ul{
+    list-style: none;
+    padding-left: 0;
+}

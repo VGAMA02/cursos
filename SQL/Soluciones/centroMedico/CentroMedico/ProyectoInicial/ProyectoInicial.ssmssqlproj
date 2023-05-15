@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ProyectoInicial">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-UIU1B2G\MSSQLSERVER0:sa">
+          <Created>2022-07-22T17:49:53.3303236-05:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-UIU1B2G\MSSQLSERVER0</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="ALTA_Especialidades.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ALTA_Especialidades.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ALTA_Medico.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ALTA_Medico.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ALTA_Turnos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ALTA_Turnos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AltaPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>AltaPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BackUp2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>D:\2-Cursos\SQL\BaseDatos\BackUp\BackUp2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DEL_Turno.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>DEL_Turno.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Estructuras de control.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Estructuras de control.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FCN_FechaTexto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>FCN_FechaTexto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Funciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Funciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FuncionesEscalaresTabla.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>FuncionesEscalaresTabla.sql</FullPath>
+        </FileNode>
+        <FileNode Name="JOB_CancelaTurnosVencidos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>JOB_CancelaTurnosVencidos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Joins and unions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Joins and unions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Operadores Aritmeticos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Operadores Aritmeticos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Roles.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Roles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_EspecialidadesMedicas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SEL_EspecialidadesMedicas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_HistoriaPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SEL_HistoriaPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_TurnosPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SEL_TurnosPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TablasTemporales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>TablasTemporales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Transaccion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Transaccion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Triggers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Triggers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPD_Paciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>UPD_Paciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPD_Turno.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>UPD_Turno.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VIEW_MedicosEspecialidades.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>VIEW_MedicosEspecialidades.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Vistas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UIU1B2G\MSSQLSERVER0:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UIU1B2G\MSSQLSERVER0</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Vistas.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

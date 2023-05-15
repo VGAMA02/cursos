@@ -1,0 +1,20 @@
+<div class = "otroMundo">
+    <h1>{{ titulo }}</h1> <!-- llamamos a la variable titulo de component.ts-->
+    <!-- let es para declarar una variable, el ngfor esta haciendo un for de elementos 
+    li, como un foreach para users-->
+
+    <ul>
+        <li *ngFor = "let user of users">
+            {{user}}
+        </li>
+     
+    </ul>
+    
+    <ul>
+        <li *ngIf = "activado">
+            <p>activado</p>
+        </li>
+     
+    </ul>
+
+</div>

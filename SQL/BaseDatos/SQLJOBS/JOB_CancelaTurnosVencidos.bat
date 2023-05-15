@@ -1,0 +1,1 @@
+SQLCMD -S .\192.168.1.254 -i D:\2-Cursos\SQL\BaseDatos\SQLJOBS\JOB_CancelaTurnosVencidos.sql

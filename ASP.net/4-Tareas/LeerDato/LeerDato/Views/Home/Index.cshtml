@@ -1,0 +1,35 @@
+﻿@model DatoViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<div>
+    <table class="table">
+        <thead>
+            <th>Accion</th>
+            <th>Accion 2</th>
+        </thead>
+        @foreach (var celda in Model.LDato)
+        {
+            <tr style="border: 1px solid">
+                <td class="">
+                    @celda.datoRow
+                </td>
+
+
+                <td>
+                    @celda.datoRow
+                 </td>
+            </tr>
+
+
+ 
+        }
+    </table>
+</div>

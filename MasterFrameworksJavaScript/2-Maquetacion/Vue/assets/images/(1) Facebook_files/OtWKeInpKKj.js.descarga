@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["A3hhHz6"]); }
+
+__d("MWCMUseFolder.bs",["ReQL.bs","ReQLSubscription.bs","ReQLTable","ReStore.bs","react"],(function(a,b,c,d,e,f){"use strict";var g,h=g||b("react");function a(a){var c=b("ReStore.bs").useHook(void 0);return b("ReQLSubscription.bs").useFirst(h.useMemo(function(){return b("ReQL.bs").getKeyRange(b("ReQLTable").table(c,"community_folders").asc,{hd:a.A,tl:0})},[c,JSON.stringify(a.A)]))}f.useHook=a}),null);

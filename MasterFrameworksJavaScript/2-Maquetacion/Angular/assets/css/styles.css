@@ -1,0 +1,489 @@
+body{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*fuentes*/
+    webkit-font-smoothing:antialiased;
+    moz-font-smoothing:antialiased;
+    moz-osx-font-smoothing:antialiased;
+    
+}
+
+#header{
+    height: 120px;
+    width:  100%;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    border-top: 3px solid #ec3b3b;
+}
+#logo{
+    width: 30%;
+    font-size: 30px;
+    float: left;
+    margin-top: 35px;
+}
+#logo img{
+    display: block;
+    float: left;
+    height: 60px;
+    margin-top: -10px;
+    margin-right: -7px;
+    animation: latir infinite 3s linear;
+}
+
+@keyframes latir {
+    0%{
+        transform: scale(0.95, 0.95);
+    }
+    50%{
+        transform: scale(1, 1);
+    }
+    55%{
+        transform: scale(0.90, 0.90);  
+    }
+    100%{
+        transform: cale(0.95, 0.95);
+    }
+}
+#brand{
+    display: block;
+    margin: 0px;
+    float: left;
+}
+.center{
+    width: 75%;
+    margin: 0px auto;
+}
+
+#menu{
+    width: 70%;
+    float: right;
+    font-size: 18px ;
+}
+
+#menu ul{
+    line-height: 85px;
+    width: 60%;
+    float: right;
+    
+}
+
+#menu ul li{
+    display: inline-block;
+    list-style: none;
+    height: 46px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+#menu a{
+    text-decoration: none;
+    color:#444;
+    transition: 300ms all;
+}
+#menu a:hover{
+    color: #f33737;
+}
+#clearfix{
+    clear: both;
+    float: none;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+
+#slider{
+    /*degradado css*/
+    background: linear-gradient(180deg, rgba(247,9,9,1) 0%, rgba(125,7,7,1) 68%, rgba(2,0,36,1) 100%);
+    width: 100%;
+    height: 350px;
+    /*line-height: 320px;*/
+    color: #fff;
+}
+#slider h1{
+    margin-top: 0.2px;
+    padding: 0px;
+    padding-top: 138px;
+    text-align: center;
+}
+.btn-white{
+    color: #444;
+    display: block;
+    background:white;
+    padding: 10px;
+    width: 160px;
+    height: 30px;
+    margin: 0px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: none;
+    text-decoration: none;
+    line-height: 30px;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-top: 40px;
+    border-radius: 16px;
+}
+.btn-white:hover{
+    background: #444;
+    color:white;
+    transition: 300ms all;
+}
+#slider.slider-small{ /*metemos prioridad con la almohadilla*/
+        height: 150px;
+}
+
+#slider.slider-small h1{
+    margin-top: 0.2px;
+    padding: 0px;
+    padding-top: 53px;
+    text-align: center;
+}
+
+#content{
+    width: 70%;
+    float: left;
+   
+    min-height: 650px;
+    margin-right: 20px;
+}
+
+#sidebar{
+    width: 25%;
+    float: left;
+    
+}
+.sidebar-item{
+    background: #f7f7f7;
+    padding: 15px;
+    margin-top: 30px;
+}
+.sidebar-item h3{
+    text-transform: uppercase;
+    font-size: 17px;
+    margin: 0px;
+    border-bottom: 3px solid rgb(199, 199, 199);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.sidebar-item .btn{
+    margin: 0px auto;
+    margin-top: 10px;
+    max-width: 50%;
+}
+.btn{
+    background: black;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    transition: 600ms all;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-success{
+    background: rgb(54, 160, 54);
+    
+}
+.btn-success:hover{
+    background: rgb(0, 0, 0);
+}
+
+input[type="text"],
+textarea{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 3px;
+    transition: 999ms all;
+}
+input[type="text"]:focus,
+textarea:focus{
+    box-shadow: 0px 0px 1px #eee inset;
+}
+/*INPUTS Y FORMS.............................................*/
+textarea{
+    width: 100%;
+    height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 300px;
+}
+
+
+.mid-form{
+    width: 50%;
+    margin: 0px auto;
+}
+
+.mid-form label{
+    display: block;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+
+}
+
+.radiobuttons{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+
+#footer{
+    clear: both;
+    background: #f7f7f7;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    color: #444;
+}
+
+#footer p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.article-item{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.article-item .image-wrap{
+    width: 130px;
+    height: 130px;
+    overflow: hidden; /*ocultar lo que sobresalga*/
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    clear: both;
+}
+
+.article-item .image-wrap img{
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.article-item h2{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+.article-item .date{
+    display: block;
+    width: 100%;
+    color: rgb(94, 92, 92);
+}
+.article-item a{
+    display: inline-block;
+    color: #444;
+    text-decoration: none;
+    margin-top: 10px;
+    /*mis modificaciones*/
+    background-color: #e6410f;
+    width: 10%;
+    text-align: center;
+    color: #eee;
+    border-radius: 10%;
+    transition: 300ms all;
+
+}
+
+.article-item a:hover{
+    text-decoration: underline;
+    color: #876ce9;
+  
+}
+
+.subheader{
+    font-size: 28px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.article-detail .image-wrap{
+    float: none;
+    width: 100%;
+    height: 300px;
+}
+
+.article-detail .image-wrap img{
+    height: 100%;
+    width: 100%;
+}
+.article-detail p{
+    display: block;
+    text-align: justify;
+    text-justify: auto;
+}
+
+.footer-correction{
+   
+        
+       width: 100%;
+        bottom: 0;
+        position:fixed;
+}
+
+/* Responsibe */
+
+/*Encontrar los puntos de corte en cuanto a pixeles*/
+/*media query*/
+/*desde la anchita 0px hasta la anchura 1488px de pantalla
+se ejecutarana estos estillos
+↓↓↓
+*/
+@media (max-width: 1488px){
+ .center{
+        width: 85%;
+ }
+    
+}
+/* Desde la anchura 0px hasta la anchura 1314*/
+@media  (max-width: 1314px){
+    .center{
+        width: 95%;
+ }
+
+ #menu ul{
+     width: auto;
+ }
+}
+@media (max-width: 860px){
+    #logo{
+         width: 265px;
+    }
+
+    #menu{
+        width: auto;
+    }
+}
+/* Desde la anchura 0px hasta la anchura 797 */
+@media (max-width: 814px){
+    #logo{
+        float: none;
+        margin: 0px auto;
+        /*width: 240px;*/
+        margin-top: 10px;
+
+    }
+    #menu,
+    #menu ul{
+        clear: both;
+        float: none;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        line-height: 43px;
+    }
+    #content{
+        float: none;
+        width: 100%;
+    }
+    #sidebar{
+        float: none;
+        width: 60%;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+    #slider h1{
+        padding-top: 112px;
+        font-size: 27px;
+    }
+
+    .mid-form{
+        width: 70%;
+    }
+}
+/* Desde la anchura 0px hasta la anchura 497 */
+@media (max-width: 497px){
+    #header{
+        min-height: 130px;
+        overflow: hidden;
+    }
+
+    #menu,
+    #menu ul{
+        line-height: 50px;
+    }
+
+    #menu ul li{
+       margin-left: 7px;
+       margin-right: 7px;
+    }
+
+    #slider{
+        height: 150px
+    }
+
+    #slider h1{
+        font-size: 19px;
+        padding-top: 30px;
+    }
+    #slider .btn-white{
+        margin-top: 5px;
+        font-size: 15px;
+        width:150px;
+        height:19px;
+    }
+
+    #slider.slider-small{
+        height: 100px;
+    }
+    #slider.slider-small h1{
+       padding-top: 35px;
+    }
+    /* Desde la anchura 0px hasta la anchura 411 */
+    @media (max-width: 411px){
+        menu,
+        #menu ul{
+            display: block;
+            line-height: 40px;
+            font-size: 17px;
+            margin-bottom: auto;
+         }
+    
+        #menu ul li{
+           margin-left: 4px;
+           margin-right: 4px;
+        }
+        }
+    /* Desde la anchura 0px hasta la anchura 365 */
+        @media (max-width: 365px){
+            menu,
+            #menu ul{
+                display: block;
+                line-height: 40px;
+                font-size: 15px;
+                margin-bottom: 30px;
+                padding-bottom: 30px;
+             }
+        
+            #slider{
+                height: 150px
+            }
+        
+            #slider h1{
+                font-size: 19px;
+                padding-top: 45px;
+            }
+            }
+}

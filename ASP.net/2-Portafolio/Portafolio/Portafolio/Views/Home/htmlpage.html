@@ -1,0 +1,40 @@
+﻿@model Persona
+
+@{
+    ViewData["Title"] = "Home Page";
+
+    string ConvertirEnMayusculas(string valor)
+    {
+        return valor.ToUpper();
+    }
+
+    var nombres = new List<string>
+    () {"Jose","Maria","Pavon"};
+    DateTime hoy = DateTime.Now;
+    }
+
+    <div class="text-center">
+        <h1 class="display-4">Soy @ViewBag.Nombre</h1>
+        <h2>@Model.Nombre (@Model.Edad)</h2>
+
+        @if(Model.Edad >= 18)
+        {
+        <h4>Legal</h4>
+        }
+        else
+        {
+        <h4>No legal</h4>
+        }
+
+        <h4> @hoy.ToString("dd/MM/yyyy hh:mm:ss tt") </h4>
+
+        <img id="foto" src="~/imagenes/gamacio.jpg" alt="Foto del gama" />
+
+        <ul>
+            @foreach (var nombre in nombres)
+            {
+            <li>@nombre</li>
+            }
+        </ul>
+
+    </div>

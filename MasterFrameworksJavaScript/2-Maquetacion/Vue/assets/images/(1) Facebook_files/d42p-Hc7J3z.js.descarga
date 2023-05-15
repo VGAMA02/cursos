@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["K0+jHRm"]); }
+
+__d("MWPTextCommon.react",["cr:10965"],(function(a,b,c,d,e,f,g){"use strict";g["default"]=b("cr:10965")}),98);

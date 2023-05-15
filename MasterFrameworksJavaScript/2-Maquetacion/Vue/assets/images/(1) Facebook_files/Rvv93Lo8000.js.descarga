@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["3JEZgUm"]); }
+
+__d("LSEncryptedBackupsCreateEncryptionKeyPair.bs",["Promise"],(function(a,b,c,d,e,f){"use strict";function a(a,c){return b("Promise").resolve([new ArrayBuffer(0),new ArrayBuffer(0)])}f.call=a}),null);

@@ -1,0 +1,24 @@
+.acordion-cuentas button[b-05jcn8n5mf] {
+    color: black !important;
+    font-size: 20px;
+}
+
+.acordion-cuentas > span[b-05jcn8n5mf] {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.acordion-cuentas ul li[b-05jcn8n5mf] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acordion-cuentas .accordion-collapse[b-05jcn8n5mf] {
+    font-size: 18px;
+}
+
+.acomodo[b-05jcn8n5mf] {
+    display: block;
+    width: 80%
+}

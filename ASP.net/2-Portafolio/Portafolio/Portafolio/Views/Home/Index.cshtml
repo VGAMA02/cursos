@@ -1,0 +1,34 @@
+﻿@model HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+
+    string ConvertirEnMayusculas(string valor)
+    {
+        return valor.ToUpper();
+    }
+
+    var nombres = new List<string>() {"Jose","Maria","Pavon"};
+    DateTime hoy = DateTime.Now;
+}
+
+<partial name="_Presentacion"></partial>
+<partial name="_Habilidades"></partial>
+<partial name="_SeccionProyectos" model="Model.Proyectos"></partial>
+
+
+<!--
+<h2>Ejemplo GUID</h2>
+<div>
+    GUID Transitorio: <b style="color: red"> @Model.EjemploGUID_1.Transitorio  </b>
+</div>
+
+<div>
+    GUID Delimitado: <b style="color: green"> @Model.EjemploGUID_1.Delimitado  </b>
+</div>
+
+<div>
+    GUID Unico: <b style="color: blue"> @Model.EjemploGUID_1.Unico </b>
+</div>
+
+ -->

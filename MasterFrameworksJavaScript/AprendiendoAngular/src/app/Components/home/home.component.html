@@ -1,0 +1,16 @@
+<app-slider [nombre] = "'Bienvenido al master en frameworks con GamaKun'">
+    <!--Valores y propiedades que se le pueden pasar a alguna propiedad. -->
+</app-slider>
+
+<div class = "center">
+    <section id = "content">
+        <!-- etiqueta que va al ruter reviza que rutas hay creadas y carga
+        dentro de la etiqueta carga dicho segmento basicamente detecta la ruta
+        que hay y carga un componente mamalon. -->
+    <h2 class = "subheader"> {{title}} </h2>
+        
+            <app-articles [articles] = "articles"></app-articles>
+    </section>
+   
+</div>
+<app-sidebar></app-sidebar>

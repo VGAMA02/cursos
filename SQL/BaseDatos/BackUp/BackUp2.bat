@@ -1,0 +1,1 @@
+SQLCMD -s .\192.168.119.1 -i D:\2-Cursos\SQL\BaseDatos\BackUp\BackUp2.sql

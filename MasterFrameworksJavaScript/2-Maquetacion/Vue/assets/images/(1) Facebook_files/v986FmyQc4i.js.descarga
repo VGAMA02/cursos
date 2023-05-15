@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["LZ+XiMX"]); }
+
+__d("MWV2OpenGroupHeaderMenuItem.bs",["fbt","ix","CometMenuItem.react","FBID.bs","MWCMUseFolder.bs","XCometGroupLandingControllerRouteBuilder","bs_int64","fbicon","react"],(function(a,b,c,d,e,f,g,h){"use strict";var i,j=i||b("react");function a(a){a=a.thread;a=b("MWCMUseFolder.bs").useHook(a);if(a===void 0)return null;var c=b("XCometGroupLandingControllerRouteBuilder").buildURL({group_id:b("FBID.bs").ofString(b("bs_int64").to_string(a.b))});return j.jsx(b("CometMenuItem.react"),{primaryText:g._("Go to {group name}",[g._param("group name",a.c)]),href:c,icon:b("fbicon")._(h("510950"),20)})}c=a;f.make=c}),null);

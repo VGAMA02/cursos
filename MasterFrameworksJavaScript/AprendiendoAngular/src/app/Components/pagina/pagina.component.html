@@ -1,0 +1,40 @@
+<app-slider [nombre] = "'Pagina'">   
+    <!--Valores y propiedades que se le pueden pasar a alguna propiedad. -->
+</app-slider>
+<div class = "center">
+    <section id = "content">
+        <!-- etiqueta que va al ruter reviza que rutas hay creadas y carga
+        dentro de la etiqueta carga dicho segmento basicamente detecta la ruta
+        que hay y carga un componente mamalon. -->
+    <h1 class = "subheader">¡  BLOG !</h1>
+
+
+
+<h1 class = "subheader">¡  Paginini !</h1>
+<!--Directiva condicional si existen entonces mostrar el else en este caso esta cargando la directiva ng-template-->
+<div *ngIf="nombre && apellidos; then siHayParametros else noHayParametros">
+  
+   
+</div>
+
+
+
+<div *ngIf="!nombre || !apellidos">
+    <h2>Bienvenido</h2>    
+</div>
+<!-- Directiva que carga una plantilla para ser usada-->
+<ng-template #siHayParametros>
+    <h2>Bienvenido {{nombre}} {{apellidos}}</h2>
+</ng-template>
+
+<ng-template #noHayParametros>
+    <h2>Desconocido</h2>    
+</ng-template>
+
+<button (click) = "redireccion()">Ponme nombre y apellidos</button>
+
+
+</section>
+   
+</div>
+<app-sidebar></app-sidebar>

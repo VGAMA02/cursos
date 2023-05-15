@@ -1,0 +1,130 @@
+<!DOCTYPE html> <!-- indica la version de html que se utilice -->
+<html lang = "es"> <!-- lang es lenguaje -->
+<head>
+	<title> La pagina chida </title>
+</head>
+<body>
+	<div>	
+	<h1> 
+			<strong> HELOUDA </strong>
+	</h1>	
+	</div>
+	<div>
+			<br>
+			<h2>
+			<strong>HOLA!</strong>
+			</h2>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+			 </p>
+			 <hr>
+
+			 <p> <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+			</em>
+			 </p>
+
+			 <p> <span id="span" class="xD">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			<i>cillum dolore eu </i>fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			<blockquote> xDxDxD CITA</blockquote> proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+			</span>
+			 </p>
+	</div>
+	<!-- ------------------------------------------------------------------  -->
+	<h3> Imagenes en HTML </h3>
+	<!-- img es para imagen, alt es texto que se pone si se pierde la imagen
+		tittle es un titulo que aparece si se posiciona el mouse
+		src fuente de imagen
+
+	 -->
+	<img alt = "Imagen que deberia estar aqui" tittle = "aaaaw" src="imagenes/a.jpg" width="500" height="500" >
+
+
+	<!-- ------------------------------------------------------------------  -->
+	<!-- ------------------------------------------------------------------  -->
+	<h3>Formulario </h3>
+	<!-- 
+	 action: a donde va ir el formulario, que archivo.
+	 methord: metodo
+
+	 -->
+	<form action="" method="post">
+		<p>
+		    <label for="nombre">Nombre</label>
+			<input type="text" name="nombre" placeholder="escribe tu nombre" />
+		</p>
+		<p>
+			<label for = "descripcion">Descripcion</label>
+			<textarea name="descripcion"> </textarea>
+		</p>
+
+		<input type="radio" name="genero" value="hombre"> Hombre <br>
+		<input type="radio" name="genero" value="mujer">  Mujer <br>
+		<input type="radio" name="genero" value="quimera"> Quimera <br>
+
+		<select name= "genero2">
+			<option value ="hombre">Hombre</option>
+			<option value ="mujer">Mujer</option>
+			<option value ="quimera">Quimera</option>
+		</select>
+
+		<input type="submit" value="envio">
+	</form>
+
+
+	<!-- ------------------------------------------------------------------  -->
+
+
+	<h3> Listado de frutas </h3>
+	<!--Lista ordenada-->
+	<ol>
+		<li>Manzana
+			<ul> <!-- Lista desordenada -->
+				<li> Roja </li>
+				<li> Verde </li>
+				<li> Amarilla </li>
+			</ul>
+		</li>	<!--Elemento de la lista-->
+		<li>Naranja</li>
+		<li>Pera</li>
+		<li>Limon</li>
+	</ol>
+
+	<h3> Tablas </h3>
+	<table border="1"><!-- etiqueta principal -->
+		<tr> <!-- fila -->
+			<th> Nombre </th> <!-- Columnas con resaltado -->
+			<th> Apellido </th> <!-- Columnas -->
+			<th> Pais </th> <!-- Columnas -->
+		</tr>
+		<tr> <!-- fila -->
+			<td> Victor </td> <!-- colspan expande la columna -->
+			<td> Robles </td> <!-- Columnas -->
+			<td> España </td> <!-- Columnas -->
+		</tr>
+		<tr> <!-- fila -->
+			<td> Brandon </td> <!-- Columnas -->
+			<td> Gama </td> <!-- Columnas -->
+			<td> Mexico </td> <!-- Columnas -->
+		</tr>
+		<tr> <!-- fila -->
+			<td colspan = "2"> Brandon </td><!-- colspan expande la columna -->
+			
+			<td> Mexico </td> <!-- Columnas -->
+		</tr>
+	</table>
+
+	
+</body>
+</html>

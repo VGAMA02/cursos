@@ -1,0 +1,60 @@
+<app-slider [nombre]="'Peliculas'"  [size] = "'small'">
+  <!--Valores y propiedades que se le pueden pasar a alguna propiedad. -->
+</app-slider>
+<div class="center">
+  <section id="content">
+    <!-- etiqueta que va al ruter reviza que rutas hay creadas y carga
+        dentro de la etiqueta carga dicho segmento basicamente detecta la ruta
+        que hay y carga un componente mamalon. -->
+    <div id="favorita" *ngIf="favorita">
+        <h2 class="subheader">
+          Pelicula Favorita
+        </h2>
+        <h4>
+          {{favorita.title | lowercase}}
+        </h4>
+        <h5> <!--pipes son filtros como tal que se aplican con | -->
+          {{favorita.year | espar}}
+        </h5>
+
+        <h5> <!--pipes son filtros como tal que se aplican con | -->
+          {{fecha | date:'dd/MM/yyyy'}}
+        </h5>
+        
+    </div>
+    <h1 class="subheader">Peliculas</h1>
+    <!--
+    <h2>{{ titulo }}</h2>
+    <!--Se le pueden poner eventos a los botones-->
+    <!--
+    <button (click)="cambiarTitulo()">Pulsame</button>
+    <hr />
+    
+    <h2>Mostrando primera pelicula</h2>
+    {{ peliculas[0].title }}
+    <hr />
+    <h2>Numero de peliculas</h2>
+    <div *ngIf="peliculas.length <= 3">Hay pocas peliculas:</div>
+    <div *ngIf="peliculas.length > 3">Hay muchas peliculas:</div>
+
+    {{ peliculas.length }}
+    <hr />
+    -->
+
+    <h2 class="subheader">Listado de peliculas</h2>
+    <!--Listado de articulos-->
+    <div id="articles" *ngIf="peliculas">
+      <!---ngFor let es crear una variable que en cada vuelta va a ser un objecto de peliculas-->
+      
+        <div *ngFor="let pelicula of peliculas; let i = index">
+          <app-pelicula-pieza [pelicula] = "pelicula" [i] = i (MarcarFavorita)="mostrarFavortia($event)">
+            <!-- tal vez haya que quitar y poner esto-->
+          </app-pelicula-pieza>
+        </div>
+          
+     
+     
+    </div>
+  </section>
+</div>
+<app-sidebar></app-sidebar>
